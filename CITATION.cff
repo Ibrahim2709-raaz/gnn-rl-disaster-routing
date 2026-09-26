@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the accompanying manuscript."
+type: software
+title: "GNN-RL Disaster-Aware Healthcare WSN Routing"
+authors:
+  - family-names: Salman
+    given-names: Ibrahim
+  - family-names: Kaur
+    given-names: Jaspreet
+preferred-citation:
+  type: article
+  title: "A Graph Neural Network and Reinforcement Learning Framework for Resilient Self-Healing Routing in Disaster-Aware Healthcare Wireless Sensor Networks"
+  authors:
+    - family-names: Salman
+      given-names: Ibrahim
+    - family-names: Kaur
+      given-names: Jaspreet
+  notes: "Manuscript submitted for publication; update this record with venue, year, pages, and DOI after acceptance."

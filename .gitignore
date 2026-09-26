@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments and editors
+.venv/
+venv/
+.idea/
+.vscode/
+
+# Generated experiment artifacts
+models/
+*.pt
+*.pth
+*.npz
+results/generated/
+
+# Manuscripts and local archives
+*.docx
+*.zip
+archive/
+archieve/
+
+# OS files
+.DS_Store
+Thumbs.db
