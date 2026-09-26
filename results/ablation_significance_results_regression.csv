@@ -1,0 +1,14 @@
+severity,metric,no_gnn_mean,gnn_mean,p_value,significant_at_0.05
+Low,route_delivery_ratio,1.0,1.0,,False
+Low,average_latency,255.3526,261.5192,0.1453,False
+Low,average_hop_count,6.8917,6.7167,0.2133,False
+Low,average_energy_cost,11.2744,11.171,0.414,False
+Low,average_disaster_risk,0.1723,0.1898,0.0219,True
+Low,average_high_risk_nodes,0.0,0.1,0.0299,True
+Medium,route_delivery_ratio,1.0,1.0,,False
+Medium,average_latency,266.0308,275.8137,0.0799,False
+Medium,average_hop_count,6.9792,6.675,0.0694,False
+Medium,average_energy_cost,11.3877,11.185,0.2547,False
+Medium,average_disaster_risk,0.1798,0.2111,0.0016,True
+Medium,average_high_risk_nodes,0.0042,0.0833,0.0974,False
+High,route_delivery_ratio,1.0,0.9667,0.3256,False

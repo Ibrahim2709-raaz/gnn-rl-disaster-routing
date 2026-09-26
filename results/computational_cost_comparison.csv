@@ -1,0 +1,3 @@
+model,trainable_parameters,training_time_sec,training_epochs,single_node_inference_ms,batched_74_node_inference_ms
+LSTM,20545,7.27,25,0.3908,0.6847
+GNN,1313,0.3,250,0.0017,0.1269

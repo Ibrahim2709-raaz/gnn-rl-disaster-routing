@@ -1,0 +1,7 @@
+severity,model,route_delivery_ratio_mean,route_delivery_ratio_std,average_latency_mean,average_latency_std,average_hop_count_mean,average_hop_count_std,average_energy_cost_mean,average_energy_cost_std,average_disaster_risk_mean,average_disaster_risk_std,average_high_risk_nodes_mean,average_high_risk_nodes_std
+Low,RL + Weighted-Formula (No GNN),1.0,0.0,255.3526,34.3928,6.8917,0.7958,11.2744,0.7991,0.1723,0.0322,0.0,0.0
+Low,"GNN + RL (Regression, Proposed)",1.0,0.0,261.5192,31.1061,6.7167,0.3182,11.171,0.4691,0.1898,0.0439,0.1,0.2399
+Medium,RL + Weighted-Formula (No GNN),1.0,0.0,266.0308,43.0653,6.9792,0.8978,11.3877,0.9607,0.1798,0.0327,0.0042,0.0228
+Medium,"GNN + RL (Regression, Proposed)",1.0,0.0,275.8137,33.8595,6.675,0.2312,11.185,0.463,0.2111,0.0476,0.0833,0.2529
+High,RL + Weighted-Formula (No GNN),1.0,0.0,280.3848,38.4989,6.9417,0.6645,11.4981,0.9436,0.1888,0.0371,0.0042,0.0228
+High,"GNN + RL (Regression, Proposed)",0.9667,0.1826,281.9438,30.9984,6.7198,0.3401,11.2092,0.5516,0.2049,0.0433,0.0776,0.1988

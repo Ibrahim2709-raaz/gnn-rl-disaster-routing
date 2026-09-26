@@ -1,0 +1,7 @@
+severity,model,route_delivery_ratio_mean,route_delivery_ratio_std,average_latency_mean,average_latency_std,average_hop_count_mean,average_hop_count_std,average_energy_cost_mean,average_energy_cost_std,average_disaster_risk_mean,average_disaster_risk_std,average_high_risk_nodes_mean,average_high_risk_nodes_std
+Extreme,Shortest-Path,1.0,0.0,421.2633,45.8708,5.9138,0.3661,10.6051,0.3472,0.381,0.0406,1.6663,0.5122
+Extreme,Energy-Aware,1.0,0.0,344.7294,38.5467,6.9825,0.6433,11.5667,0.8389,0.2485,0.0557,0.445,0.5675
+Extreme,Weighted-Risk-Aware,1.0,0.0,294.7842,36.5092,6.7962,0.5665,11.2377,0.7235,0.1968,0.0529,0.2037,0.3691
+Extreme,LSTM,1.0,0.0,319.2179,37.246,7.3137,0.8321,11.3498,0.9968,0.1879,0.0457,0.0675,0.2215
+Extreme,LSTM-RL,0.8962,0.2898,357.7674,69.4942,8.0916,1.5237,12.797,2.0502,0.2117,0.0425,0.0027,0.0262
+Extreme,GNN-RL,0.96,0.1464,339.1967,75.506,7.2809,1.1475,12.0112,1.6455,0.2308,0.0563,0.279,0.4932
