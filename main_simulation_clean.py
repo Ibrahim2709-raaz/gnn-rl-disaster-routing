@@ -960,8 +960,13 @@ def split_lstm_dataset(X, y):
     print("===============================\n")
     return X_train, y_train, X_validation, y_validation, X_test, y_test
 
-class LSTMFailurePredictor(nn.Module):
+_LSTM_BASE_CLASS = nn.Module if PYTORCH_AVAILABLE else object
+
+
+class LSTMFailurePredictor(_LSTM_BASE_CLASS):
     def __init__(self, input_size, hidden_size=64, num_layers=1, dropout_rate=0.30):
+        if not PYTORCH_AVAILABLE:
+            raise RuntimeError("PyTorch is required to create an LSTMFailurePredictor.")
         super(LSTMFailurePredictor, self).__init__()
         self.lstm = nn.LSTM(input_size=input_size, hidden_size=hidden_size, num_layers=num_layers, batch_first=True)
         self.dropout = nn.Dropout(dropout_rate)
