@@ -2,7 +2,7 @@
 
 Reproducibility code and experiment outputs for **“A Graph Neural Network and Reinforcement Learning Framework for Resilient Self-Healing Routing in Disaster-Aware Healthcare Wireless Sensor Networks”** by Ibrahim Salman and Jaspreet Kaur.
 
-> **Publication status:** manuscript submitted for publication. The manuscript itself is not included here while publisher and preprint permissions are being confirmed.
+> **Publication status:** manuscript submitted for publication. The submitted manuscript is available as a [PDF](paper/gnn-rl-disaster-aware-healthcare-wsn-paper.pdf).
 
 ## Overview
 
@@ -29,11 +29,12 @@ The final regression-GNN experiments show the clearest advantage under extreme c
 ├── run_ablation_regression.py            # Final regression-GNN ablation
 ├── run_extreme_experiment_regression.py  # 100-trial extreme-severity experiment
 ├── run_computational_cost_comparison.py  # LSTM/GNN efficiency comparison
+├── paper/                                 # Submitted manuscript PDF
 ├── results/                               # Reported CSV outputs
 └── tests/                                 # Lightweight regression tests
 ```
 
-Generated model weights, synthetic datasets, caches, exploratory prototypes, and manuscript files are intentionally excluded from version control.
+Generated model weights, synthetic datasets, caches, and exploratory prototypes are intentionally excluded from version control.
 
 ## Installation
 
@@ -101,7 +102,7 @@ See [`results/extreme_experiment_results_regression.csv`](results/extreme_experi
 
 ## Citation
 
-If this code supports your work, use the metadata in [`CITATION.cff`](CITATION.cff). Replace the submitted-manuscript citation with the final DOI and venue metadata once the paper is published.
+If this code supports your work, use the metadata in [`CITATION.cff`](CITATION.cff) and consult the [submitted manuscript](paper/gnn-rl-disaster-aware-healthcare-wsn-paper.pdf). Replace the submitted-manuscript citation with the final DOI and venue metadata once the paper is published.
 
 ## License
 
